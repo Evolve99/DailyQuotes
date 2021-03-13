@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/general">
+    <!--    <ListPreference
+            android:entries="@array/languages"
+            android:entryValues="@array/languages_alias"
+            android:icon="@drawable/ic_language"
+            android:key="pref_change_language"
+            android:persistent="true"
+            android:summary="@string/change_the_app_language"
+            android:title="@string/change_language" />-->
+        <ListPreference
+            android:entries="@array/background_image_options"
+            android:entryValues="@array/background_image_options"
+            android:icon="@drawable/ic_data_saving"
+            android:key="pref_data_saving"
+            android:summary="@string/show_background_image_only_when_connected_with"
+            android:title="@string/show_background_image" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_animations"
+            android:key="pref_animations"
+            android:summary="@string/show_animations"
+            android:title="@string/animations" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/notifications">
+        <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_notifications"
+        android:key="pref_notifications"
+        android:summary="@string/receive_notifications"
+        android:title="@string/notifications" />
+
+        <Preference
+            android:key="pref_notification_time"
+            android:icon="@drawable/ic_notification_time"
+            android:summary="@string/change_the_notification_time"
+            android:title="@string/notification_time" />
+
+        <Preference
+            android:key="pref_notification_test"
+            android:icon="@drawable/ic_notification_test"
+            android:summary="@string/sends_a_test_notification"
+            android:title="@string/notification_test"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/customization">
+
+        <com.flask.colorpicker.ColorPickerPreference
+            android:icon="@drawable/ic_background_color"
+            android:key="pref_background_color"
+            android:summary="@string/choose_background_color"
+            android:title="@string/background_color"
+            app:initialColor="-16777216"
+            app:alphaSlider="true"
+            app:lightnessSlider="true" />
+
+        <com.flask.colorpicker.ColorPickerPreference
+            android:icon="@drawable/ic_text_color"
+            android:key="pref_text_color"
+            android:summary="@string/choose_text_color"
+            android:title="@string/text_color"
+            app:alphaSlider="true"
+            app:initialColor="-1"
+            app:lightnessSlider="true"
+            app:pickerButtonCancel="@android:string/cancel" />
+
+        <!--<Preference android:title="Text size"
+            android:key="pref_text_font"
+            android:icon="@drawable/ic_text"
+            android:summary="Choose text size"/>-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/app">
+        <Preference
+        android:icon="@drawable/ic_like"
+        android:key="pref_rate"
+        android:summary="@string/rate_the_app_in_google_play"
+        android:title="@string/rate_the_app" />
+
+        <Preference
+            android:icon="@drawable/ic_share_app"
+            android:key="pref_share"
+            android:summary="@string/share_this_app_with_your_friends"
+            android:title="@string/share_app" />
+        <Preference
+            android:icon="@drawable/ic_more_apps"
+            android:key="pref_google_play"
+            android:summary="@string/find_out_our_apps_on_google_play"
+            android:title="@string/more_apps" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/contacts">
+        <Preference
+            android:icon="@drawable/ic_instagram"
+            android:key="pref_instagram"
+            android:summary="@string/follow_us_on_instagram"
+            android:title="@string/instagram" />
+        <Preference
+            android:icon="@drawable/ic_facebook"
+            android:key="pref_facebook"
+            android:summary="@string/like_us_on_facebook"
+            android:title="@string/facebook" />
+        <Preference
+            android:icon="@drawable/ic_twitter"
+            android:key="pref_twitter"
+            android:summary="@string/follow_us_on_twitter"
+            android:title="@string/twitter" />
+        <Preference
+            android:icon="@drawable/ic_email"
+            android:key="pref_contact_us"
+            android:summary="@string/contact_us_text"
+            android:title="@string/contact_us" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/privacy">
+        <!--<Preference
+            android:title="Required permissions"
+             android:icon="@drawable/ic_interval"
+            android:summary="Use of required permissions"
+            android:key="pref_permissions"/>-->
+        <Preference
+            android:icon="@drawable/ic_gdpr"
+            android:key="pref_gdpr"
+            android:summary="@string/can_we_use_your_data_to_tailor_ads_for_you"
+            android:title="@string/data_protection_consent" />
+        <Preference
+            android:icon="@drawable/ic_privacy"
+            android:key="pref_privacy"
+            android:summary="@string/read_our_privacy_policy"
+            android:title="@string/privacy_policy" />
+    </PreferenceCategory>
+</PreferenceScreen>

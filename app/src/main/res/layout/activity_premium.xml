@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/list_pro_feature"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/view_unlock_pro"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/view_unlock_pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/button_rewarded_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/video"
+            app:layout_constraintBottom_toTopOf="@id/text_1_hour"
+            app:backgroundTint="@color/blue_600"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@id/button_survey"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/text_1_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_hour"
+            app:layout_constraintBottom_toTopOf="@+id/button_buy_premium"
+            app:layout_constraintEnd_toEndOf="@id/button_rewarded_video"
+            app:layout_constraintStart_toStartOf="@id/button_rewarded_video" />
+
+        <Button
+            android:id="@+id/button_survey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/survey"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/blue_600"
+            app:layout_constraintBottom_toTopOf="@+id/text_1_hour"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_rewarded_video" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/_1_day"
+            app:layout_constraintBottom_toTopOf="@+id/button_buy_premium"
+            app:layout_constraintEnd_toEndOf="@id/button_survey"
+            app:layout_constraintStart_toStartOf="@id/button_survey"
+            app:layout_constraintTop_toBottomOf="@id/button_rewarded_video" />
+        <Button
+            android:id="@+id/button_buy_premium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/purchase"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/deep_purple_600"
+            app:layout_constraintBottom_toTopOf="@id/text_forever" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/forever"
+            android:id="@+id/text_forever"
+            app:layout_constraintBottom_toTopOf="@id/text_premium_expiration"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="4dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_premium_expiration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aa" translatable="false">Aa</string>
+    <string name="alignment">Alignment</string>
+    <string name="all">All</string>
+    <string name="animations">Animations</string>
+    <string name="app" translatable="false">App</string>
+    <string name="app_name">Daily Quotes</string>
+    <string name="app_not_installed">App not installed</string>
+    <string name="background">Background</string>
+    <string name="board">Border</string>
+    <string name="can_we_use_your_data_to_tailor_ads_for_you">Can we use your data to tailor ads for you?</string>
+    <string name="categories">Categories</string>
+    <string name="change_the_notification_time">Change the notification time</string>
+    <string name="choose_color">Choose color</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="click_to_edit">Click to edit</string>
+    <string name="color">Color</string>
+    <string name="contact_us">Contact us</string>
+    <string name="contact_us_text">Contact us for any problem, request and advice</string>
+    <string name="contacts">Contacts</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="customization">Customization</string>
+    <string name="daily_quotes">Daily Quotes</string>
+    <string name="data_protection_consent">Data Protection Consent</string>
+    <string name="show_background_image">Show background image</string>
+    <string name="desire">Desire</string>
+    <string name="destiny">Destiny</string>
+    <string name="do_you_really_want_to_exit">Do you really want to exit?</string>
+    <string name="download_this_app">Download for free Daily Quotes. https://goo.gl/ie8wW1</string>
+    <string name="dream">Dream</string>
+    <string name="edit_quote">Edit quote</string>
+    <string name="editor">Editor</string>
+    <string name="email">Email</string>
+    <string name="emotions">Emotions</string>
+    <string name="error">Error</string>
+    <string name="exit">Exit</string>
+    <string name="eyes">Eyes</string>
+    <string name="facebook" translatable="false">Facebook</string>
+    <string name="failed_to_create_folder">Failed to create folder</string>
+    <string name="failed_to_load_video">Failed to load video</string>
+    <string name="family">Family</string>
+    <string name="famous_people">Famous People</string>
+    <string name="favorites">Favorites</string>
+    <string name="file_not_found">File not found</string>
+    <string name="find_out_our_apps_on_google_play">Find out our apps on Google Play</string>
+    <string name="follow_us_on_instagram">Follow us on Instagram</string>
+    <string name="follow_us_on_twitter">Follow us on Twitter</string>
+    <string name="freedom">Freedom</string>
+    <string name="friendship">Friendship</string>
+    <string name="gallery">Gallery</string>
+    <string name="general">General</string>
+    <string name="gradient">Gradient</string>
+    <string name="highlight">Highlight</string>
+    <string name="hug">Hug</string>
+    <string name="image_category" translatable="false">Image Category</string>
+    <string name="gdpr_main">"Our partners will collect data and use a unique identifier on your device to show you ads. You chan change your choice anytime in the app settings. Your information will never be shared with anyone.Consult the privacy policy of our partners: <a href="https://policies.google.com/privacy">AdMob</a> <a href="https://firebase.google.com/support/privacy/">Firebase</a>     "</string>
+    <string name="i_am_at_least_16_years_old">I am at least 16 years old</string>
+    <string name="image_background" translatable="false">Image Quote Background</string>
+    <string name="image_saved">Image saved</string>
+    <string name="instagram" translatable="false">Instagram</string>
+    <string name="interval">Interval</string>
+    <string name="io_exception">IO Exception</string>
+    <string name="key_all" translatable="false">All</string>
+    <string name="key_desire" translatable="false">Desire</string>
+    <string name="key_destiny" translatable="false">Destiny</string>
+    <string name="key_dream" translatable="false">Dream</string>
+    <string name="key_emotions" translatable="false">Emotions</string>
+    <string name="key_eyes" translatable="false">Eyes</string>
+    <string name="key_family" translatable="false">Family</string>
+    <string name="key_famous_people" translatable="false">Famous people</string>
+    <string name="key_freedom" translatable="false">Freedom</string>
+    <string name="key_friendship" translatable="false">Friendship</string>
+    <string name="key_hug" translatable="false">Hug</string>
+    <string name="key_life" translatable="false">Life</string>
+    <string name="key_love" translatable="false">Love</string>
+    <string name="key_moods" translatable="false">Moods</string>
+    <string name="key_motivational" translatable="false">Motivational</string>
+    <string name="key_music" translatable="false">Music</string>
+    <string name="key_nature" translatable="false">Nature</string>
+    <string name="key_poetry" translatable="false">Poetry</string>
+    <string name="key_silence" translatable="false">Silence</string>
+    <string name="key_smile" translatable="false">Smile</string>
+    <string name="key_sport" translatable="false">Sport</string>
+    <string name="key_success" translatable="false">Success</string>
+    <string name="key_technology" translatable="false">Technology</string>
+    <string name="key_time" translatable="false">Time</string>
+    <string name="key_wisdom" translatable="false">Wisdom</string>
+    <string name="key_work" translatable="false">Work</string>
+    <string name="life">Life</string>
+    <string name="like_us_on_facebook">Like us on Facebook</string>
+    <string name="loading">Loading…</string>
+    <string name="lorem_ipsium" translatable="false">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="love">Love</string>
+    <string name="low_connection">Internet connection too slow</string>
+    <string name="moods">Moods</string>
+    <string name="more_apps">More apps</string>
+    <string name="motivational">Motivational</string>
+    <string name="music">Music</string>
+    <string name="nature">Nature</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_favorite_quotes">No favorite quotes</string>
+    <string name="no_quotes_found">No quotes found</string>
+    <string name="notification_time">Notification time</string>
+    <string name="notifications">Notifications</string>
+    <string name="opacity">Opacity</string>
+    <string name="photos">Photos</string>
+    <string name="phrases">Phrases</string>
+    <string name="poetry">Poetry</string>
+    <string name="premium">Premium</string>
+    <string name="preview">Preview</string>
+    <string name="privacy" translatable="false">Privacy</string>
+    <string name="privacy_policy" translatable="false">Privacy Policy</string>
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="removed_from_favorites">Removed from favorites</string>
+    <string name="quotes">Quotes</string>
+    <string name="quotes_finished">Quotes finished</string>
+    <string name="rate_the_app">Rate the app</string>
+    <string name="rate_the_app_in_google_play">Rate the app in Google Play</string>
+    <string name="read_our_privacy_policy">Read our Privacy Policy</string>
+    <string name="receive_notifications">Receive notifications</string>
+    <string name="reload">Reload</string>
+    <string name="_default">Default</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="send_email">Send email</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="share_app">Share Daily Quotes</string>
+    <string name="share_image">Share image</string>
+    <string name="share_text">Share text</string>
+    <string name="share_this_app_with_your_friends">Share this app with your friends</string>
+    <string name="show_animations">Show animations</string>
+    <string name="show_background_image_only_when_connected_with">Show background image only when connected with:</string>
+    <string name="silence">Silence</string>
+    <string name="smile">Smile</string>
+    <string name="spacing">Spacing</string>
+    <string name="sport">Sport</string>
+    <string name="success">Success</string>
+    <string name="technology">Technology</string>
+    <string name="text">Text</string>
+    <string name="text_size">Text size</string>
+    <string name="time">Time</string>
+    <string name="twitter" translatable="false">Twitter</string>
+    <string name="wisdom">Wisdom</string>
+    <string name="work">Work</string>
+    <string name="you_already_have_premium_version">You already have Premium Version</string>
+    <string name="pro" translatable="false">PRO</string>
+    <string name="image_pro_feature" translatable="false">Image Pro Feature</string>
+    <string name="none">None</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="more_fonts">More Fonts</string>
+    <string name="search_quotes">Search quotes</string>
+    <string name="collection_of_photos">Collection of photos</string>
+    <string name="choose_image">Choose image</string>
+    <string name="support_our_work">Support our work</string>
+    <string name="survey_not_available">Survey not available</string>
+    <string name="video">Video</string>
+    <string name="purchase">Purchase</string>
+    <string name="survey">Survey</string>
+    <string name="quote_of_the_day">Quote of the day</string>
+    <string name="forever">Forever</string>
+    <string name="_1_day">+1 Day</string>
+    <string name="_1_hour">+1 Hour</string>
+    <string name="premium_expiration" translatable="false">Premium: %1$s</string>
+    <string name="install_now">Install now</string>
+    <string name="sends_a_test_notification">Sends a test notification</string>
+    <string name="notification_test">Notification test</string>
+
+    <string name="never">Never</string>
+    <string name="wifi">Wifi</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="wifi_mobile_data">Wifi &amp; Mobile Data</string>
+    <string-array name="background_image_options">
+        <item>@string/never</item>
+        <item>@string/wifi</item>
+        <item>@string/mobile_data</item>
+        <item>@string/wifi_mobile_data</item>
+    </string-array>
+    <string name="we_care_about_your_privacy_and_data_security_we_keep_this_app_free_by_showing_ads">We care about your privacy and data security. We keep this app free by showing ads.</string>
+    <string name="choose_background_color">Choose background color</string>
+    <string name="background_color">Background color</string>
+    <string name="choose_text_color">Choose text color</string>
+    <string name="text_color">Text color</string>
+    <string name="premium_version_required">Premium Version required</string>
+    <string name="support_our_work_by_purchasing">Support our work by purchasing the premium version or watch some ads to unlock all the Premium features. Your help is essential to continue developing and updating our applications.</string>
+    <string name="random">Random</string>
+    <string name="rewind">Rewind</string>
+    <string name="week">Week</string>
+    <string name="refresh_quotes_every">Refresh quotes every:</string>
+    <string name="second">Second</string>
+    <string name="minute">Minute</string>
+    <string name="hour">Hour</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="remove_logo_from_images">Remove logo from images</string>
+
+</resources>

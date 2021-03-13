@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_font">56dp</dimen>
+    <dimen name="item_image">56dp</dimen>
+    <dimen name="item_editor">64dp</dimen>
+    <dimen name="margin_line">48dp</dimen>
+</resources>

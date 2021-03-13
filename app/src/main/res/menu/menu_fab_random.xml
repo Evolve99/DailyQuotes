@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opt_favorite"
+        android:icon="@drawable/ic_favorite_off_white"
+        android:title="@string/favorites" />
+
+    <item
+        android:id="@+id/opt_editor"
+        android:icon="@drawable/ic_edit_white"
+        android:title="@string/editor" />
+
+    <item
+        android:id="@+id/opt_save"
+        android:icon="@drawable/ic_save_white"
+        android:title="@string/save" />
+
+    <item
+        android:id="@+id/opt_share"
+        android:icon="@drawable/ic_share_white"
+        android:title="@string/share" />
+</menu>
